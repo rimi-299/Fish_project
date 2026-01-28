@@ -1,0 +1,26 @@
+﻿Compass Jellyfish 
+
+
+
+
+The Compass Jellyfish contains a loop animation with 2 textures.
+An animation loop contains 100 frames (1-100, 30fps).
+
+
+The 3d model includes one animation loop (1-100)
+The Jellyfish has 11 pieces:
+1. Head (Bell);
+2. Underhead;
+3. Kaps (Oral Arms);
+4. Tentacles.
+
+
+Technical details
+Number of textures: 4
+Texture dimensions: 4096x4096
+Polygon count of Jellyfish Pulmo: Tris 10916
+Number of meshes/prefabs: 11
+Animation count: 1
+UV mapping: Yes
+LOD information (count, number of levels): 1
+Types of materials and texture maps (e.g., PBR): Shader Standart

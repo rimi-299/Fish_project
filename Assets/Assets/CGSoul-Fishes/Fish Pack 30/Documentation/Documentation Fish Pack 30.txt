@@ -1,0 +1,78 @@
+Fish Pack 30 - Coral Bay
+
+This Fish Pack will help you make your underwater world more realistic.
+The pack contains 30 tropical fish.
+
+Each fish has an animation loop 800 frames (duration 0-800, 30fps). 
+Eeach fish has 3 textures: Albedo, Metallic, Normal
+
+The package contains the following fish:
+1 Clownfish
+2 Double-Saddle
+3 Powder Blue Tang
+4 Yellow Tang
+5 Caranx fish
+6 Bannerfish
+7 Bicolor Angelfish
+8 Clow Triggerfish
+9 Convict Tang
+10 Emperor Angelfish
+11 Juvenile Angelfish
+12 Royal Angelfish
+13 Threadfin
+14 Yellow Longnose
+15 BlueTang
+16 Purple Tang
+17 Clownfish Black
+18 Copperband
+19 Flame Angelfish
+20 Fusilier
+21 LinedSurgeon
+22 Discus Yellow Marlboro
+23 Discus Albino Millennium Gold
+24 Discus Albino Snakeskin
+25 Discus Brilliant Turquoise
+26 Discus Checkerboard Pigeon
+27 Discus Heckel Cross
+28 Discus Leopard Red Spotted
+29 Discus Red Passion
+30 Discus Red Map Checkerboard
+
+
+Number of textures: 186 (each fish has 3 textures)
+Texture dimensions: 1024x1024 px
+Polygon count of Clownfish Orange:  Tris:5478, Verts:2295
+Polygon count of Double-Saddle:     Tris:734,  Verts:385
+Polygon count of Powder Blue Tang:  Tris:1160, Verts:597
+Polygon count of Yellow Tang:       Tris:998,  Verts:501
+Polygon count of Caranx:            Tris:358,  Verts:187
+Polygon count of Bannerfish:        Tris:2252, Verts:1174
+Polygon count of Bicolor Angelfish: Tris:2642, Verts:1365
+Polygon count of Clow Triggerfish:  Tris:1995, Verts:1063
+Polygon count of Convict Tang:      Tris:1622, Verts:826
+Polygon count of Emperor Angelfish: Tris:2488, Verts:1270
+Polygon count of Juvenile Angelfish:Tris:2516, Verts:1284
+Polygon count of Royal Angelfish:   Tris:2488, Verts:1271
+Polygon count of Threadfin          Tris:858,  Verts:447
+Polygon count of Yellow Longnose    Tris:1770, Verts:903
+Polygon count of BlueTang           Tris:1418, Verts:739
+Polygon count of Purple Tang        Tris:1642, Verts:834
+Polygon count of Clownfish Black    Tris:5478, Verts:2295
+Polygon count of Copperband         Tris:2118, Verts:1094
+Polygon count of Flame Angelfish    Tris:2558, Verts:1302
+Polygon count of Fusilier           Tris:1098, Verts:565
+Polygon count of LinedSurgeon       Tris:1624, Verts:836
+Polygon count of Discus 1           Tris:2610, Verts:1380
+Polygon count of Discus 2           Tris:2610, Verts:1380
+Polygon count of Discus 3           Tris:2610, Verts:1380
+Polygon count of Discus 4           Tris:2610, Verts:1380
+Polygon count of Discus 5           Tris:2610, Verts:1380
+Polygon count of Discus 6           Tris:2610, Verts:1380
+Polygon count of Discus 7           Tris:2610, Verts:1380
+Polygon count of Discus 8           Tris:2610, Verts:1380
+Polygon count of Discus 9           Tris:2610, Verts:1380
+Number of meshes/prefabs: 2
+Animation count: 1
+UV mapping: Yes
+LOD information (count, number of levels): no
+Types of materials and texture maps (e.g., PBR): Shader Standart. Albedo, Metallic, Normal map

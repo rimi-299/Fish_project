@@ -3119,9 +3119,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c9ba2611217cdd4b90daa1dc1829b1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  personSpherePrefab: {fileID: 644837669}
+  networkManager: {fileID: 0}
+  trackedFish: {fileID: 0}
   imageWidth: 640
-  worldXRange: 5
   fixedY: 0
   fixedZ: 3
   moveSpeed: 12
@@ -3555,9 +3555,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c9ba2611217cdd4b90daa1dc1829b1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  personSpherePrefab: {fileID: 5798859792733546837, guid: 962daaf652ba6cd4b9f548f2738e8107, type: 3}
+  networkManager: {fileID: 522434182}
+  trackedFish: {fileID: 1446475402}
   imageWidth: 640
-  worldXRange: 5
   fixedY: 0
   fixedZ: 3
   moveSpeed: 12
@@ -3574,7 +3574,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   WebSocketURL: ws://localhost:8765
-  personManager: {fileID: 0}
+  personManager: {fileID: 522434181}
 --- !u!4 &522434183
 Transform:
   m_ObjectHideFlags: 0
@@ -11106,6 +11106,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 820961266}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1446475402 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4038527697287290471, guid: 962daaf652ba6cd4b9f548f2738e8107, type: 3}
+  m_PrefabInstance: {fileID: 6430071919231688482}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1446985438
 GameObject:
   m_ObjectHideFlags: 0
@@ -16458,13 +16463,29 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 851443561573200504, guid: 962daaf652ba6cd4b9f548f2738e8107, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4038527697287290471, guid: 962daaf652ba6cd4b9f548f2738e8107, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4038527697287290471, guid: 962daaf652ba6cd4b9f548f2738e8107, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4038527697287290471, guid: 962daaf652ba6cd4b9f548f2738e8107, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4038527697287290471, guid: 962daaf652ba6cd4b9f548f2738e8107, type: 3}
       propertyPath: m_LocalPosition.x
       value: 391.13
       objectReference: {fileID: 0}
     - target: {fileID: 4038527697287290471, guid: 962daaf652ba6cd4b9f548f2738e8107, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -51.81
+      value: -70
       objectReference: {fileID: 0}
     - target: {fileID: 4038527697287290471, guid: 962daaf652ba6cd4b9f548f2738e8107, type: 3}
       propertyPath: m_LocalPosition.z
@@ -16501,6 +16522,18 @@ PrefabInstance:
     - target: {fileID: 5798859792733546837, guid: 962daaf652ba6cd4b9f548f2738e8107, type: 3}
       propertyPath: m_Name
       value: TrackedFishPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 6402548611291879804, guid: 962daaf652ba6cd4b9f548f2738e8107, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6402548611291879804, guid: 962daaf652ba6cd4b9f548f2738e8107, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6402548611291879804, guid: 962daaf652ba6cd4b9f548f2738e8107, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

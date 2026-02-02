@@ -3121,10 +3121,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   networkManager: {fileID: 0}
   trackedFish: {fileID: 0}
+  fishVisual: {fileID: 0}
   imageWidth: 640
   fixedY: 0
   fixedZ: 3
-  moveSpeed: 12
+  minSpeed: 1.5
+  maxSpeed: 12
+  speedMultiplier: 2
+  stopDistance: 0.03
+  smoothTime: 0.12
+  turnSpeed: 6
+  turnDeadzone: 0.001
+  modelForwardAxis: {x: 0, y: 0, z: 1}
+  enableBobbing: 1
+  bobAmplitude: 0.05
+  bobFrequency: 1.5
 --- !u!114 &455665170
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3557,10 +3568,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   networkManager: {fileID: 522434182}
   trackedFish: {fileID: 1446475402}
+  fishVisual: {fileID: 1011820266}
   imageWidth: 640
   fixedY: 0
-  fixedZ: 3
-  moveSpeed: 12
+  fixedZ: 290
+  minSpeed: 1.5
+  maxSpeed: 12
+  speedMultiplier: 2
+  stopDistance: 0.03
+  smoothTime: 0.12
+  turnSpeed: 6
+  turnDeadzone: 0.001
+  modelForwardAxis: {x: 0, y: 0, z: 1}
+  enableBobbing: 1
+  bobAmplitude: 0.05
+  bobFrequency: 1.5
 --- !u!114 &522434182
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7667,6 +7689,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!4 &1011820266 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5382563690220738588, guid: 962daaf652ba6cd4b9f548f2738e8107, type: 3}
+  m_PrefabInstance: {fileID: 6430071919231688482}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1012619660
 GameObject:
   m_ObjectHideFlags: 0
